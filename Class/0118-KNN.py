@@ -110,7 +110,7 @@ def run(dataset):
 	plt.ylabel('sepal length')
 	plt.xlabel('sepal width')
 	plt.legend()
-	# plt.show()
+	plt.show()
 
 	''' DECISION BOUNDARIES'''
 	plt.clf()
@@ -150,7 +150,7 @@ def run(dataset):
 		# plt.scatter(x_all[:,0], x_all[:,1], c=y_prob_all, marker='.', alpha=0.01)
 		plt.ylabel('sepal length')
 		plt.xlabel('sepal width')
-		# plt.show()
+		plt.show()
 
 	'''EFFECTS OF NOISE AND FEATURE SCALING'''
 	plt.clf() # clear plot
